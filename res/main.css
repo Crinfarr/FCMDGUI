@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    color: white;
+}
+h1 {
+    background-color: darkgray;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    box-sizing: content-box;
+    color:darkslategray;
+}
