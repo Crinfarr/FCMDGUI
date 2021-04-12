@@ -14,14 +14,14 @@ function hack() {
     setTimeout(() => {
         tryharder = confirm('takedown failed, try harder?')
         if (tryharder) {
-            instances = 3;
-            //instances = 1024000
+            //instances = 3;
+            instances = 1024000
 
             for (i = 0; i <= instances; i++) {
                 spawnshell('echo %random%')
             }
             setTimeout(() => {
-                //crash();
+                crash();
                 alert('took down site with ' + (Math.round(Math.random()) * 10) + ' attempts.  Currently running several background jobs.');
             }, 60000)
         }
